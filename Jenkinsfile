@@ -1,8 +1,9 @@
----
-applications:
-- name: gs-rest-service
-  memory: 256M
-  instances: 1
-  host: rest-service
-  domain: guides.spring.io
-  path: build/libs/gs-rest-service-0.1.0.jar
+@Library('shared-libraries@master')_
+
+def env_config =[
+  app_name: "Molema.com"
+  mvn_build_command: "mvn clean install"
+  docker_build_command: "docker build -t sample-app-java-springboot:latest ."
+]
+
+ci_pipeline_v1(env_config)
