@@ -1,4 +1,4 @@
-@Library('shared-libraries@master')_
+@Library('ci-shared-library@master')_
 
 def env_config =[
   app_name: "Molema.com"
