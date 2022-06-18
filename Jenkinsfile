@@ -4,4 +4,4 @@ def env_config =[
   app_name: "Molema.com"
 ]
 
-ci_pipeline_v1(env_config)
+ci-java-springboot-nexus(env_config)
