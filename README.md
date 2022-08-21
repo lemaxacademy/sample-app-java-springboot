@@ -5,9 +5,10 @@
 
 ## Build and start commands:
 1. Download the project: ```git clone https://github.com/lemaxacademy/sample-app-java-springboot.git```
-2. Build command: ```mvn clean install```
-3. Start command: ```java -jar target/sample-app-java-springboot-0.0.1-SNAPSHOT.jar```
-4. Health URL: http://localhost:8080 (You should see a *"Hello World"* messsage)
+2. Navigate to the project: ```cd sample-app-java-springboot``` 
+3. Build command: ```mvn clean install```
+4. Start command: ```java -jar target/sample-app-java-springboot-0.0.1-SNAPSHOT.jar```
+5. Health URL: http://localhost:8080 (You should see a *"Hello World"* messsage)
 
 ## Reference Documentation
 For further reference, please consider the following sections:
