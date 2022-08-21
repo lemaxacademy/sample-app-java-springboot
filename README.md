@@ -9,8 +9,7 @@
 3. Start command: ```java -jar target/sample-app-java-springboot-0.0.1-SNAPSHOT.jar```
 4. Health URL: http://localhost:8080 (You should see a *"Hello World"* messsage)
 
-## Getting Started
-### Reference Documentation
+## Reference Documentation
 For further reference, please consider the following sections:
 
 * [Spring initializr](https://start.spring.io/)
